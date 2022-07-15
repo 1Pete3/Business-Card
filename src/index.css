@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+body
+{
+    font-family: 'Edu SA Beginner', cursive !important;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Container
+{
+    background-color:rgb(73, 122, 134) ;
+    border-color: white;
+    border-width:0.2in;
+    border-style: solid;
+    margin: 5px;
+}
+.ProfileImage
+{
+    width:  50% !important;
+}
+hr
+{
+    color: white !important;
+    border-top: 5px solid white !important;
+}
+h2
+{
+    color: white;
+}
+p
+{
+    font-size: 20px !important;
 }
